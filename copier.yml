@@ -107,7 +107,7 @@ _migrations:
 odoo_version:
   help: On which odoo version is it based?
   type: float
-  default: 15.0
+  default: 16.0
   choices:
     - 7.0
     - 8.0
@@ -118,6 +118,7 @@ odoo_version:
     - 13.0
     - 14.0
     - 15.0
+    - 16.0
 
 odoo_proxy:
   default: traefik
